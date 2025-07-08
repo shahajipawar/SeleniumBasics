@@ -13,6 +13,7 @@ public class BaseTest {
 
 	private WebDriver driver;
 	String baseUrl = "https://www.globalsqa.com/demo-site/";
+	
 	String expectedTitleOnTab = "Accordion And Tabs";
 
 	public void setup() throws InterruptedException {
